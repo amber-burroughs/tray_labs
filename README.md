@@ -50,7 +50,7 @@ Methods: GET
     }
 
 ## Endpoint: 
-/v1/people/**
+**/v1/people/**
 - Practice making an API request
 - Request all people data
 - Submit a new person
@@ -92,7 +92,7 @@ Methods: GET
     }
 
 ## Route
-/v1/people/:name**
+**/v1/people/:name**
 - Practice making an API request
 - Request people data for a particular person with their name route
 - Name routes are create when data is sent to the API
@@ -133,7 +133,7 @@ Methods: GET
 
 
 ## Query Parameter
-/v1/people?name=:your-generated-route**
+**/v1/people?name=:your-generated-route**
 - Request people data for a particular person with their name route as query parameter
 - Name routes are create when data is sent to the API
 - If a POST request is made using query parameters the params will be ignored
