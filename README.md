@@ -29,9 +29,10 @@
 ## Endpoint: /v1/
 
 - Practice making an API request
-Methods: GET
+**Methods:** GET
 
 ### GET /v1/
+
 
 **RESPONSE**
 
