@@ -5,7 +5,7 @@
 
 **Methods:** none
 
-**GET**
+### GET
 
 **RESPONSE**
 
@@ -16,7 +16,7 @@
         "method": "GET"
     }
 
-**POST**
+### POST
 
 **RESPONSE**
 
@@ -26,12 +26,12 @@
         "method": "POST"
     }
 
-**Endpoint: 
+## **Endpoint: 
 /v1/**
 - Practice making an API request
 Methods: GET
 
-**GET /v1/**
+### **GET /v1/**
 
 **RESPONSE**
 
@@ -41,7 +41,7 @@ Methods: GET
         "Endpoint": "/v1/"
     }
 
-**POST /v1/**
+### **POST /v1/**
 
     {
         "message": "Oops! Please provide the proper endpoint 😥",
@@ -49,7 +49,7 @@ Methods: GET
         "method": "POST"
     }
 
-**Endpoint: 
+## Endpoint: 
 /v1/people/**
 - Practice making an API request
 - Request all people data
@@ -57,7 +57,7 @@ Methods: GET
 
 **Methods: GET, POST**
 
-**GET /v1/people/**
+### GET /v1/people/
 
 **RESPONSE**
 
@@ -73,7 +73,7 @@ Methods: GET
         "endpoint": "/v1/people/"
     }
 
-**POST  /v1/people/**
+### POST  /v1/people/
 
     {
         "name": "amber hernandez",
@@ -91,7 +91,7 @@ Methods: GET
         "method": "POST"
     }
 
-**Route
+## Route
 /v1/people/:name**
 - Practice making an API request
 - Request people data for a particular person with their name route
@@ -100,7 +100,7 @@ Methods: GET
 
 **Methods: GET, POST**
 
-**GET /v1/people/:name**
+### GET /v1/people/:name
 
 **RESPONSE**
 
@@ -112,7 +112,7 @@ Methods: GET
         "method": "GET"
     }
 
-**POST /v1/people/:name**
+### POST /v1/people/:name
 
     {
         "name": "Tray Labs",
@@ -132,14 +132,14 @@ Methods: GET
     }
 
 
-**Query Parameter
+## Query Parameter
 /v1/people?name=:your-generated-route**
 - Request people data for a particular person with their name route as query parameter
 - Name routes are create when data is sent to the API
 - If a POST request is made using query parameters the params will be ignored
 Methods: GET,
 
-**GET /v1/people?name=:your-generated-route**
+### GET /v1/people?name=:your-generated-route
 
 **RESPONSE**
 
@@ -159,7 +159,7 @@ Methods: GET,
         }
     }
 
-**POST /v1/people?name=:your-generated-route**
+### POST /v1/people?name=:your-generated-route
 
     {
         "message": "Great job using the POST Method! 👏",
@@ -180,7 +180,7 @@ Methods: GET,
     }
 
 
-**Status Codes:**
+## Status Codes:
 
  - **200** - Success 
  - **404** - Failure | Resource not found
