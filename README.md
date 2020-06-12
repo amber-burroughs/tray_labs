@@ -74,6 +74,7 @@ Methods: GET
     }
 
 ### POST  /v1/people/
+- Note that the only field required is name, all others are up to you.
 
     {
         "name": "amber hernandez",
