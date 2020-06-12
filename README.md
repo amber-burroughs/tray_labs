@@ -26,12 +26,12 @@
         "method": "POST"
     }
 
-## **Endpoint: 
+## Endpoint: 
 /v1/**
 - Practice making an API request
 Methods: GET
 
-### **GET /v1/**
+### GET /v1/
 
 **RESPONSE**
 
@@ -41,7 +41,7 @@ Methods: GET
         "Endpoint": "/v1/"
     }
 
-### **POST /v1/**
+### POST /v1/
 
     {
         "message": "Oops! Please provide the proper endpoint 😥",
