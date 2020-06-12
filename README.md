@@ -1,7 +1,7 @@
 
 # Tray Labs Example API
 
-**Base URL**: https://2b1011ad-6240-4dc9-ae58-284faaa14e80.trayapp.io
+## Base URL: https://2b1011ad-6240-4dc9-ae58-284faaa14e80.trayapp.io
 
 **Methods:** None
 
@@ -26,8 +26,8 @@
         "method": "POST"
     }
 
-## Endpoint: 
-**/v1/**
+## Endpoint: /v1/
+
 - Practice making an API request
 Methods: GET
 
@@ -49,8 +49,8 @@ Methods: GET
         "method": "POST"
     }
 
-## Endpoint: 
-**/v1/people/**
+## Endpoint: /v1/people/
+
 - Practice making an API request
 - Request all people data
 - Submit a new person
@@ -91,8 +91,8 @@ Methods: GET
         "method": "POST"
     }
 
-## Route
-**/v1/people/:name**
+## Route: /v1/people/:name
+
 - Practice making an API request
 - Request people data for a particular person with their name route
 - Name routes are create when data is sent to the API
@@ -132,8 +132,8 @@ Methods: GET
     }
 
 
-## Query Parameter
-**/v1/people?name=:your-generated-route**
+## Query Parameter: /v1/people?name=:your-generated-route
+
 - Request people data for a particular person with their name route as query parameter
 - Name routes are create when data is sent to the API
 - If a POST request is made using query parameters the params will be ignored
