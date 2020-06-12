@@ -1,5 +1,5 @@
 
-*Tray Labs Example API
+#Tray Labs Example API#
 
 **Base URL**: https://2b1011ad-6240-4dc9-ae58-284faaa14e80.trayapp.io
 
