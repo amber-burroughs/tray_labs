@@ -3,35 +3,35 @@
 **Base URL**: https://2b1011ad-6240-4dc9-ae58-284faaa14e80.trayapp.io
 **Methods:** none
 **GET**
-    {
+    ```{
         "message": "Uh-Oh! I do not know the endpoint you provided ðŸ˜¥",
         "endpoint": "/v1/",
         "incorrect" endpoint: "/",
         "method": "GET"
-    }
+    }```
 **POST**
-    {
+    ```{
         "message": "Oops! Please provide the proper endpoint ðŸ˜¥",
         "endpoint": "/v1/people/",
         "method": "POST"
-    }
+    }```
 **Endpoint: 
 /v1/**
 - Practice making an API request
 Methods: GET
 **GET /v1/**
 **RESPONSE**
-    {
+    ```{
         "message": "Great job using the GET Method! ðŸŽ‰",
         "Method": "GET",
         "Endpoint": "/v1/"
-    }
+    }```
 **POST /v1/**
-    {
+  ```  {
         "message": "Oops! Please provide the proper endpoint ðŸ˜¥",
         "endpoint": "/v1/people/",
         "method": "POST"
-    }
+    }```
 **Endpoint: 
 /v1/people/**
 - Practice making an API request
@@ -40,7 +40,7 @@ Methods: GET
 **Methods: GET, POST**
 **GET /v1/people/**
 **RESPONSE**
-    {
+    ```{
         "message": "Woo-hoo! You hit an API endpoint ðŸ˜Ž",
         "data": [
             {
@@ -50,21 +50,23 @@ Methods: GET
         ],
         "method": "GET",
         "endpoint": "/v1/people/"
-    }
+    }```
 **POST  /v1/people/**
-    {
+   ``` {
         "name": "amber hernandez",
         "food":"pizza",
         "company":"Tray.io"
-    }
+    }```
+    
 **RESPONSE**
-    {
+
+   ``` {
         "message": "Great job using the POST Method! ðŸ‘",
         "queryParam": "amber-hernandez",
         "endpoint": "/v1/people/",
         "route": "amber-hernandez",
         "method": "POST"
-    }
+    }```
 **Route
 /v1/people/:name**
 - Practice making an API request
@@ -74,28 +76,28 @@ Methods: GET
 **Methods: GET, POST**
 **GET /v1/people/:name**
 **RESPONSE**
-    {
+   ``` {
         "message": "AWESOME! You hit an API endpoint and uses a route ðŸ¤©",
         "data": "Amber",
         "endpoint": "/v1/people/",
         "route": "amber",
         "method": "GET"
-    }
+    }```
 **POST /v1/people/:name**
-    {
+    ```{
         "name": "Tray Labs",
         "food":"Grilled Cheese",
         "company":"Tray.io",
         "role": "Customer enablement"
-    }
+    }```
 **RESPONSE**
-    {
+    ```{
         "message": "Great job using the POST Method! ðŸ‘",
         "queryParam": "tray-labs",
         "endpoint": "/v1/people/",
         "route": "tray-labs",
         "method": "POST"
-    }
+    }```
 **Query Parameter
 /v1/people?name=:your-generated-route**
 - Request people data for a particular person with their name route as query parameter
@@ -104,7 +106,7 @@ Methods: GET
 Methods: GET,
 **GET /v1/people?name=:your-generated-route**
 **RESPONSE**
-    {
+   ``` {
         "message": "Amazing! You hit an API endpoint and uses a query parameter ðŸ‘",
         "data": {
             "endpoint": "tray-labs",
@@ -118,23 +120,23 @@ Methods: GET,
         "query param": {
             "name": "tray-labs"
         }
-    }
+    }```
 **POST /v1/people?name=:your-generated-route**
-    {
+  ```  {
         "message": "Great job using the POST Method! ðŸ‘",
         "queryParam": "tray-labs",
         "endpoint": "/v1/people/",
         "route": "tray-labs",
         "method": "POST"
-    }
+    }```
 **RESPONSE**
-    {
+   ``` {
         "message": "Great job using the POST Method! ðŸ‘",
         "queryParam": "tray-labs",
         "endpoint": "/v1/people/",
         "route": "tray-labs",
         "method": "POST"
-    }
+    }```
 **Status Codes:**
  - **200** - Success 
  - **404** - Failure | Resource not found
