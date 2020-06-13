@@ -140,7 +140,8 @@
 - Request people data for a particular person with their name route as query parameter
 - Name routes are create when data is sent to the API
 - If a POST request is made using query parameters the params will be ignored
-Methods: GET,
+
+Methods: GET
 
 ### GET /v1/people?name=:your-generated-route
 
