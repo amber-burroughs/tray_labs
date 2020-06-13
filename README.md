@@ -166,11 +166,10 @@ Methods: GET, POST
 ### POST /v1/people?name=:your-generated-route
 
     {
-        "message": "Great job using the POST Method! 👏",
-        "queryParam": "tray-labs",
-        "endpoint": "/v1/people/",
-        "route": "tray-labs",
-        "method": "POST"
+        "name": "Tray Labs",
+        "food":"Grilled Cheese",
+        "company":"Tray.io",
+        "role": "Customer enablement"
     }
 
 **RESPONSE**
